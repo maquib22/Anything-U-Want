@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="header">
+      <h2 class="logo">Anithing-U-wanT</h2>
+      <input type="checkbox" id="chk" />
+      <label for="chk" class="show-menu-btn">
+        <i class="fas fa-ellipsis-h"></i>
+      </label>
+
+      <ul class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Works</a>
+        <a href="#">Contact</a>
+        <label for="chk" class="hide-menu-btn">
+          <i class="fas fa-times"></i>
+        </label>
+      </ul>
+    </div>
+    <!-- ---------------- login_page ------------------  -->
+
+    <div class="container">
+      <h1>Anithing-U-wanT</h1>
+
+      <form>
+        <label>first Name</label>
+        <input type="text" required placeholder="First Name" />
+        <label>last Name</label>
+        <input type="text" for="email" required placeholder="Last Name" />
+        <label>Email &emsp; &emsp; </label>
+        <input
+          type="email"
+          for="password"
+          placeholder="abc@gmail.com"
+          required
+        />
+        <label>password</label>
+        <input
+          type="password"
+          name=""
+          id=""
+          placeholder="**************"
+          required
+        />
+        <label class="info">Address 1</label>
+        <input type="text" required placeholder="Address 1" />
+        <label class="info">address 2</label>
+        <input type="text" required placeholder="Address 2" />
+        <label class="info">city &emsp;&emsp;&emsp;</label>
+        <input type="text" required placeholder="city" />
+
+        <button type="submit" class="btn btn-primary">sign up</button>
+        <div class="btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-primary">
+            <input type="checkbox" /> terms & condition
+          </label>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
