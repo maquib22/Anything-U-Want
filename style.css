@@ -294,7 +294,7 @@ footer {
   margin-top: 10px;
 }
 
-.right form .btn button {
+.submit-btn {
   height: 40px;
   width: 100px;
   border: none;
@@ -307,8 +307,10 @@ footer {
   transition: 0.3s;
 }
 
-.right form .btn button:hover {
+.submit-btn:hover {
   background: #000;
+  color: #e91e63;
+  border: 3px solid #e91e63;
 }
 
 .bottom center {
